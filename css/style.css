@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width:100vw;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    background-color: gray;
+}
+.navbar{
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    /* height:50px; */
+    background-color:black ;
+    height:50px;
+}
+.left{
+    margin-top: 10px;
+}
+a{
+    margin:5px 5px 5px 5px;
+    color: white;
+    font-size: 25px;
+    padding:10px;
+    text-decoration: none;
+}
+.right button{
+    margin:5px 5px 5px 5px;
+    color:Black;
+    font-size: 15px;
+    padding:10px;
+}
+.container{
+    height:600px;
+    width:100vw;
+    /* background-color: aquamarine; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+.upperContainer{
+    height:300px;
+    width: 100vw;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.lowerContainer{
+    
+    height:300px;
+    /* background-color: rgb(199, 191, 191); */
+    display:flex;
+    justify-content: space-around;
+    
+}
+.info{
+    width:20%;
+    font:45px;
+    background-color: grey;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+.inp{
+    width:80%;
+    font:45px;
+    background-color: grey;
+}
+.enter{
+    width:20%;
+    font:45px;
+    background-color: grey;
+}
+.output{
+    width:80%;
+    font:45px;
+    background-color: grey;
+}
+.inpField{
+    width:90%;
+    height:250px;
+    margin: 20px 20px 20px 20px;
+    font-size: 150px;
+}
+.enter button{
+    width: 50%;
+    height:10%;
+    margin-top: 120px;
+    margin-left: 80px;
+    
+}
+.textArea{
+    width:90%;
+    height:250px;
+    margin: 20px 20px 20px 20px;
+    font-size: 150px;
+}
+footer{
+    background-color: burlywood;
+    height:100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.light{
+    background-color: aliceblue;
+    color:black;
+}
